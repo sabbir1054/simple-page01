@@ -1,0 +1,160 @@
+/* Header Section */
+
+.top__nav{
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #b1afaf;
+    padding: 10px;
+}
+.top__nav-content p,
+.top__nav-content ul{
+    margin: auto;
+}
+.top__nav-content-left{
+   padding-left: 2%;
+}
+
+.top__nav-content-right ul li{
+    padding: 0px 20px;
+    border-right: 1px solid #b1afaf;
+}
+.brand__name{
+    display: grid;
+}
+.brand__name p{
+    margin: auto !important;
+}
+.nav-link{
+    font-weight: bold;
+    padding: 0rem 2rem !important;
+}
+.img1{
+    width: 105%;
+}
+.setup__part{
+       background-color: #556272;
+       color: white;
+       width: 35%;
+       margin-top: -5%;
+       z-index: 1;
+       position: relative;
+       border-radius: 10px;
+       box-shadow: 1px 2px 5px #556272;
+       margin-bottom: 2%;
+}
+.setup__part-content{
+    padding:8% 0%;
+}
+.setup__part-content .h4{
+      padding: 0% 15%;
+      text-align: center;
+}
+.setup__part-content p{
+    text-align: center;
+}
+/* About Section */
+
+.about{
+    padding: 5% 0%;
+}
+
+.about__content p{
+    padding: 0% 20%;
+}
+
+/* testimonial */
+.testimonial__bg{
+    background-image: url(../assets/img/Mask\ Group\ 7.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+     background-color: #59CDC7; 
+    padding: 5% 30%;
+
+}
+.svg-inline--fa {
+    font-size: 3em;
+}
+.testimonial__content p{
+    padding: 0% 5%;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+/* Gallary */
+.mood__class{
+    margin-bottom: 2%;
+}
+.mood__class-top-content{
+    padding: 5% 20%;
+}
+
+.mood__class-gallary img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 1px 5px 15px #552d68;
+}
+
+/*  Card Section */
+.card__section-bg{
+    background-color: #F7F7F7;
+    padding-bottom: 5%;
+}
+.card-heading{
+    padding: 5% 0%;
+}
+.card{
+    width: 90%;
+}
+
+.card:hover{
+     cursor: pointer;
+     transform: scale(1.1);
+     box-shadow: 1px 5px 15px #552d68;
+
+}
+/* App Section */
+.app-heading{
+    padding: 5% 0%;
+}
+.app ul li{
+    padding: 1%;
+    
+}
+.app ul li img{
+    box-shadow: 1px 2px 3px #556272;
+}
+.app ul li:hover {
+   transform: scale(1.1);
+}
+/* Footer */
+.footer__bg{
+    background-color: #F9F9FB;
+    padding: 5% 0%;
+    padding-bottom: 1%;
+}
+.footer_top{
+    margin-bottom: 2%;
+    border-bottom: 1px solid #B9AAFF;
+}
+
+.social__section ul li {
+    margin: 0% 2%;
+}
+.fb{
+    color: #3B5998;
+}
+.twt{
+    color: #55ACEE;
+}
+.in{
+    color: #007AB9;
+}
+.yt{
+    color: #D42428;
+    border-radius: 5px;
+}
+
+.social__section ul li:hover {
+    transform: scale(1.05);
+}

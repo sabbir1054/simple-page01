@@ -1,0 +1,175 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* X-Small devices (portrait phones, less than 576px)  */
+@media (max-width: 575.98px) {
+    .top__nav,
+    .get_started {
+        display: none !important;
+    }
+    .container-fluid{
+        display: flex;
+        justify-content: flex-end !important;
+    }
+    .menu{
+        justify-content: flex-end !important;
+    }
+    .nav-link{
+        text-align: end;
+        
+    }
+
+    /* setup part */
+    .setup__part{
+        width: 90%;
+    }
+    .setup__part-content .h4 {
+        padding: 0% 0%;
+        
+    }
+    .about__content p {
+        padding: 0% 5%;
+    }
+    .testimonial__bg {
+        padding: 5% 0%;
+    }
+    .svg-inline--fa {
+        font-size: 2em;
+    }
+    .mood__class-top-content {
+        padding: 5%;
+    }
+    .mood__class-gallary img{
+        margin: 5%;
+    }
+    .card{
+        margin-bottom: 5%;
+    }
+    
+    .list2, .app__bg{
+      display:none !important;
+
+    } 
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .top__nav,
+    .get_started {
+        display: none !important;
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-content: flex-end !important;
+    }
+
+    .menu {
+        justify-content: flex-end !important;
+    }
+
+    .nav-link {
+        text-align: end;
+
+    }
+
+    /* setup part */
+    .setup__part {
+        width: 90%;
+    }
+
+    .setup__part-content .h4 {
+        padding: 0% 0%;
+
+    }
+
+    .about__content p {
+        padding: 0% 5%;
+    }
+
+    .testimonial__bg {
+        padding: 5% 0%;
+    }
+    .svg-inline--fa {
+        font-size: 2em;
+    }
+    .mood__class-top-content {
+        padding: 5%;
+    }
+
+    .mood__class-gallary img {
+        margin: 5%;
+    }
+
+    .card {
+        margin-bottom: 5%;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .top__nav,
+    .get_started {
+        display: none !important;
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-content: flex-end !important;
+    }
+
+    .menu {
+        justify-content: flex-end !important;
+    }
+
+    .nav-link {
+        text-align: end;
+
+    }
+
+    /* setup part */
+    .setup__part {
+        width: 90%;
+    }
+
+    .setup__part-content .h4 {
+        padding: 0% 0%;
+
+    }
+
+    .about__content p {
+        padding: 0% 5%;
+    }
+
+    .testimonial__bg {
+        padding: 5% 0%;
+    }
+    .card{
+        width:100%
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.top__nav,
+.get_started {
+    display: none !important;
+}
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+.top__nav,
+.get_started {
+    display: none !important;
+}
+}
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
+@media (min-width: 1400px) {
+
+}
